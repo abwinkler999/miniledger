@@ -2,6 +2,6 @@ require 'nyny'
 
 class App < NYNY::App
   get '/' do
-    'Hello world!'
+    request.env.to_s
   end
 end

@@ -20,6 +20,7 @@ GEM
     coderay (1.1.0)
     erubis (2.7.0)
     i18n (0.6.9)
+    method_source (0.8.2)
     minitest (4.7.5)
     multi_json (1.10.1)
     nyny (3.4.1)
@@ -27,11 +28,16 @@ GEM
       better_errors (~> 1.1.0)
       rack-contrib (~> 1.1.0)
       tilt (~> 1.4.1)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     rack (1.5.2)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
     rack-test (0.6.2)
       rack (>= 1.0)
+    slop (3.5.0)
     thread_safe (0.3.4)
     tilt (1.4.1)
     tzinfo (0.3.39)
@@ -41,3 +47,4 @@ PLATFORMS
 
 DEPENDENCIES
   nyny
+  pry
